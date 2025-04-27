@@ -1,0 +1,41 @@
+Prompt Analysis Results
+=====================
+
+Prompt: yo
+
+Principle: Context
+Verdict: Weak
+Explanation: The prompt 'yo' lacks context, background information, clear goals, and a well-defined setting.
+Suggestion: Provide more details, context, background information, and define the goals and setting to make the prompt clearer and actionable.
+--------------------------------------------------
+
+Principle: MachineTreatment
+Verdict: Weak
+Explanation: The prompt is extremely short and lacks any indication of treating the LLM as a machine. It does not provide any context or clear instructions for analysis.
+Suggestion: To improve, provide a more detailed prompt that clearly indicates the need for evaluating how the LLM is treated as a machine. Include specific aspects or criteria to consider in the analysis.
+--------------------------------------------------
+
+Principle: Constraints
+Verdict: Weak
+Explanation: The prompt 'yo' is very vague and lacks clear boundaries or limitations, specific requirements, numerical constraints, or content restrictions.
+Suggestion: To improve the prompt, consider providing more context, specific instructions, requirements, or constraints to guide the analysis process.
+--------------------------------------------------
+
+Principle: Format
+Verdict: Weak
+Explanation: The prompt lacks clear specifications for input/output format. It only provides a single word 'yo' without indicating any specific format requirements.
+Suggestion: Specify the expected input format and output format, such as JSON, XML, plain text, etc. Clarify any structural requirements if applicable.
+--------------------------------------------------
+
+Principle: Examples
+Verdict: Missing
+Explanation: The prompt does not provide any example inputs or outputs to analyze.
+Suggestion: To improve, consider providing example inputs and outputs to demonstrate the task or problem more clearly.
+--------------------------------------------------
+
+Principle: Role
+Verdict: Weak
+Explanation: The prompt 'yo' does not provide any specific role assignment to the LLM. It lacks clarity and direction in terms of defining a role for the LLM to undertake.
+Suggestion: Provide a specific and clearly defined role or persona for the LLM to embody in order to guide its behavior and task execution effectively.
+--------------------------------------------------
+

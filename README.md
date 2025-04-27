@@ -28,7 +28,7 @@ For each principle, the analyzer provides:
 
 1. Clone the repository:
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/Joshitadas/prompt_analyzer.git
    cd prompt-analyzer
    ```
 

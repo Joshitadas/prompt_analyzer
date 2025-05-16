@@ -1,6 +1,31 @@
 # Prompt Analyzer
 
-A command-line tool that analyzes prompts based on six key principles of effective prompt engineering, using OpenAI's GPT model for analysis.
+This project analyzes the GitHub repository [leaked-system-prompts](https://github.com/jujumilk3/leaked-system-prompts.git) to extract common patterns and best practices from system prompts. The goal is to create an agent that can tell us exactly how to improve our system prompt.
+
+## Overview
+
+- **Analysis:** The project uses a set of analyzers to evaluate prompts based on principles such as context, machine treatment, constraints, format, examples, role, and best practices.
+- **Improvement:** By identifying common patterns and pitfalls, the agent provides actionable suggestions to enhance the clarity, effectiveness, and structure of system prompts.
+
+## How It Works
+
+1. **Extract System Prompts:** The project reads system prompts from the leaked-system-prompts repository.
+2. **Analyze Prompts:** Each prompt is analyzed using multiple analyzers to evaluate its adherence to best practices.
+3. **Generate Suggestions:** The agent provides detailed feedback and suggestions for improving the prompt.
+
+## Getting Started
+
+- Ensure you have the required dependencies installed (see `requirements.txt`).
+- Set your OpenAI API key in the environment variables.
+- Run the prompt analyzer to evaluate your system prompts.
+
+## Contributing
+
+Feel free to contribute to this project by submitting issues or pull requests.
+
+## License
+
+This project is licensed under the MIT License.
 
 ## What Does This Project Do?
 

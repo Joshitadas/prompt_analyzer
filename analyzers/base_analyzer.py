@@ -21,7 +21,7 @@ class BaseAnalyzer(ABC):
         try:
             analysis_prompt = self.get_analysis_prompt(prompt)
             
-            response = openai.ChatCompletion.create(
+            response = openai.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[
                     {"role": "system", "content": "You are a prompt analysis expert. Analyze the given prompt and return a JSON object with verdict, explanation, and suggestion."},
@@ -30,7 +30,7 @@ class BaseAnalyzer(ABC):
                 temperature=0.7
             )
             
-            result = json.loads(response.choices[0].message['content'])
+            result = json.loads(response.choices[0].message.content)
             return {
                 "verdict": result["verdict"],
                 "explanation": result["explanation"],

@@ -6,7 +6,8 @@ from analyzers import (
     ConstraintsAnalyzer,
     FormatAnalyzer,
     ExamplesAnalyzer,
-    RoleAnalyzer
+    RoleAnalyzer,
+    BestPracticesAnalyzer
 )
 
 def analyze_prompt(prompt: str) -> str:
@@ -17,7 +18,8 @@ def analyze_prompt(prompt: str) -> str:
         ConstraintsAnalyzer(),
         FormatAnalyzer(),
         ExamplesAnalyzer(),
-        RoleAnalyzer()
+        RoleAnalyzer(),
+        BestPracticesAnalyzer()
     ]
     
     # Get analysis from each analyzer

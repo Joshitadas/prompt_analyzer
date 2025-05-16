@@ -1,41 +1,47 @@
 Prompt Analysis Results
 =====================
 
-Prompt: yo
+Prompt: which team performed better?
 
 Principle: Context
 Verdict: Weak
-Explanation: The prompt 'yo' lacks context, background information, clear goals, and a well-defined setting.
-Suggestion: Provide more details, context, background information, and define the goals and setting to make the prompt clearer and actionable.
+Explanation: The prompt lacks sufficient background information, a clear context, defined goals, and an explanation of the setting or environment.
+Suggestion: Provide more details such as the teams being compared, the criteria for performance evaluation, the context of their performance, and any relevant setting or environment information to improve clarity and enable a meaningful analysis.
 --------------------------------------------------
 
 Principle: MachineTreatment
 Verdict: Weak
-Explanation: The prompt is extremely short and lacks any indication of treating the LLM as a machine. It does not provide any context or clear instructions for analysis.
-Suggestion: To improve, provide a more detailed prompt that clearly indicates the need for evaluating how the LLM is treated as a machine. Include specific aspects or criteria to consider in the analysis.
+Explanation: The prompt does not treat the LLM appropriately as a machine. It lacks specific guidance or criteria for evaluating performance, which is essential for a machine to provide a meaningful response.
+Suggestion: Provide specific performance metrics or criteria for evaluating team performance to guide the LLM's analysis effectively.
 --------------------------------------------------
 
 Principle: Constraints
 Verdict: Weak
-Explanation: The prompt 'yo' is very vague and lacks clear boundaries or limitations, specific requirements, numerical constraints, or content restrictions.
-Suggestion: To improve the prompt, consider providing more context, specific instructions, requirements, or constraints to guide the analysis process.
+Explanation: The prompt lacks clear boundaries, specific requirements, or numerical constraints. It is quite vague and open-ended.
+Suggestion: To improve, specify the criteria or metrics for evaluating team performance, provide context or background information, and define what 'performing better' means in this context.
 --------------------------------------------------
 
 Principle: Format
 Verdict: Weak
-Explanation: The prompt lacks clear specifications for input/output format. It only provides a single word 'yo' without indicating any specific format requirements.
-Suggestion: Specify the expected input format and output format, such as JSON, XML, plain text, etc. Clarify any structural requirements if applicable.
+Explanation: The prompt lacks clear specifications for input and output format. It does not mention any specific formatting requirements such as JSON, XML, or any structural requirements.
+Suggestion: To improve, specify the expected input format (e.g., list of teams with performance metrics) and the expected output format (e.g., name of the better-performing team). Additionally, consider mentioning any specific formatting requirements if applicable.
 --------------------------------------------------
 
 Principle: Examples
-Verdict: Missing
-Explanation: The prompt does not provide any example inputs or outputs to analyze.
-Suggestion: To improve, consider providing example inputs and outputs to demonstrate the task or problem more clearly.
+Verdict: Weak
+Explanation: The prompt lacks example inputs and example outputs to analyze which team performed better. There are no specific scenarios or edge cases provided in the prompt to compare the performance of the teams.
+Suggestion: To improve, the prompt should include example inputs such as team statistics, scores, or other performance metrics, along with corresponding example outputs that indicate the better-performing team based on certain criteria. Including specific examples would make the comparison more clear and relevant.
 --------------------------------------------------
 
 Principle: Role
 Verdict: Weak
-Explanation: The prompt 'yo' does not provide any specific role assignment to the LLM. It lacks clarity and direction in terms of defining a role for the LLM to undertake.
-Suggestion: Provide a specific and clearly defined role or persona for the LLM to embody in order to guide its behavior and task execution effectively.
+Explanation: The prompt does not assign a specific role or persona to the LLM. It lacks a clear definition of the role and does not provide any role-specific instructions or expectations. As a result, the prompt does not guide the LLM's behavior effectively.
+Suggestion: Assign a specific role or persona to the LLM, such as a data analyst or team manager. Provide clear instructions or expectations related to the assigned role to guide the LLM's behavior in the task.
+--------------------------------------------------
+
+Principle: BestPractices
+Verdict: Weak
+Explanation: The prompt lacks clear role definitions, constraints, and capabilities. It is also missing details on output formatting and interaction style.
+Suggestion: To improve, provide clear role definitions for the teams being compared, set constraints on what criteria determine performance, define capabilities for the analysis, and specify the expected output format and interaction style.
 --------------------------------------------------
 

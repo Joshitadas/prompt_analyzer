@@ -5,6 +5,7 @@ from .constraints_analyzer import ConstraintsAnalyzer
 from .format_analyzer import FormatAnalyzer
 from .examples_analyzer import ExamplesAnalyzer
 from .role_analyzer import RoleAnalyzer
+from .best_practices_analyzer import BestPracticesAnalyzer
 
 __all__ = [
     'BaseAnalyzer',
@@ -13,5 +14,6 @@ __all__ = [
     'ConstraintsAnalyzer',
     'FormatAnalyzer',
     'ExamplesAnalyzer',
-    'RoleAnalyzer'
+    'RoleAnalyzer',
+    'BestPracticesAnalyzer'
 ] 
